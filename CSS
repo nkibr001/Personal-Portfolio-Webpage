@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+  background:#4B4A4C;
+}
+#navbar
+{
+  display:flex;
+  justify-content:flex-end;
+  background:#DEF5F4;
+  position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+  z-index:200;
+}
+#navbar ul
+{
+  display:flex;
+  margin-right:20px;
+  list-style:none;
+  font-size:20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+}
+ a {
+  display: block;
+  padding: 0.5rem;
+  color:#764254;
+  text-decoration:none;
+}
+a:hover
+{
+  color:#538B82;
+}
+
+#welcome
+{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  width:100%;
+  height:100vh;
+  color:#FFFBEE;
+  padding-top:120px;
+  font-size:60px;
+}
+
+#about
+{ 
+  background:#BEAECC;
+  width:100%;
+  background-size:cover;
+  font-family: 'Montserrat', sans-serif;
+
+}
+#about h2
+{
+  padding-top:50px;
+  font-size:40px;
+  text-align:center;
+  color:#413A31;
+}
+#about p
+{
+  font-size:30px;
+  text-align:center;
+  padding-bottom:50px;
+}
+
+#projects
+{
+  background:#AFCFDE;
+   padding-top:20px;
+  text-align:center;
+  color:#413A31;
+    font-size:30px;
+  font-family: 'Montserrat', sans-serif;
+}
+#projects h2
+{
+    font-size:40px;
+}
+
+.project-grid
+{
+  display: grid;
+  margin: 0 auto;
+
+}
+
+.projects-grid img
+{
+  height:300px;
+  border-radius:5%;
+}
+
+#contact
+{
+    color:#FFFBEE;
+   font-size:40px;
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+}
+#contact p
+{
+  font-size:35px;
+}
+#contact a
+{
+  color:#FCAAD0;
+}
+#contact a:hover
+{
+  color:#D0FCAA;
+}
+
+.projects-grid {
+    justify-content:center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 700px));
+  grid-gap: 10px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.project-tile
+{
+  border-radius:5%;
+  padding-top:30px;
+  background:#91898C;
+  color:#FFD17A;
+}
+#projects a:hover
+{
+  color:#C0FB7C;
+}
+#all
+{
+  display:block;
+  text-align:center;
+  padding-bottom:30px;
+}
+@media only screen and (max-width: 815px)
+{
+  #welcome
+{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  width:100%;
+  color:#FFFBEE;
+  padding-top:120px;
+  font-size:60px;
+}
+
+}
